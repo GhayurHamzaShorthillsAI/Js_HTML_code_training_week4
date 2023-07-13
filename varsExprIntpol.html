@@ -1,0 +1,31 @@
+<!-- interpolation -->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>variables and expression in string</h2>
+
+<h4>Expression in string</h4>
+<p id="demo"></p>
+<script>
+let price = 10;
+let VAT = 0.25;
+let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
+
+document.getElementById("demo").innerHTML = total;
+</script>
+
+<h4>Variable in string</h4>
+<p id="demo1"></p>
+<script>
+let firstName = "John";
+let lastName = "Doe";
+
+let text = `Welcome ${firstName}, ${lastName}!`;
+
+document.getElementById("demo1").innerHTML = text;
+</script>
+
+</body>
+</html>

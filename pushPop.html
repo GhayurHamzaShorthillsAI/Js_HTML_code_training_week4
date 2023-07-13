@@ -1,0 +1,30 @@
+<!-- pushing and popping in array -->
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>The pop() Method</h2>
+
+<p>The pop() method removes the last element from an array.</p>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<script>
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML = fruits;
+fruits.pop();
+document.getElementById("demo2").innerHTML = fruits;
+</script>
+
+<h2> push() method </h2>
+<p>push method returns length of array:</p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+
+<script>
+    const fruit = ["a","b","c"];
+    document.getElementById("demo3").innerHTML = fruit.push("Kiwi");
+    document.getElementById("demo4").innerHTML = fruit;
+</script>
+</body>
+</html>
